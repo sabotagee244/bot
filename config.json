@@ -1,5 +1,4 @@
 {
-  "token": "process.env.TOKEN",
   "servidores": {
     "ID_DO_SERVIDOR_1": {
       "guildId": "1367234007825383424",
