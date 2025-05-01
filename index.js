@@ -5,7 +5,11 @@ const {
   } = require('discord.js');
   
   const sqlite3 = require('sqlite3');
-  const config = require('./config.json');
+const fs = require('fs');
+const rawConfig = fs.readFileSync('./config.json');
+const config = JSON.parse(rawConfig);
+config.token = process.env.TOKEN;
+
   
   const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMembers],
