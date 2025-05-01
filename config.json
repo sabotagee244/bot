@@ -1,0 +1,15 @@
+{
+  "token": "process.env.TOKEN",
+  "servidores": {
+    "ID_DO_SERVIDOR_1": {
+      "guildId": "1367234007825383424",
+      "canalAprovacaoId": "1367257345310068948",
+      "cargoSolicitadoId": "1367257460657754243"
+    },
+    "ID_DO_SERVIDOR_2": {
+      "guildId": "1318244815238070333",
+      "canalAprovacaoId": "1327847709859905628",
+      "cargoSolicitadoId": "1322635292951314572"
+    }
+  }
+}
